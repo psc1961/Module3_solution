@@ -1,1 +1,212 @@
+/*styles.css by coursera module 3 PSC1961*/
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.food {
+	text-align: center;
+	border: 1px solid;
+	left-margin: -15px;
+	right-margin: -15px;
+	background-color: #FF4412;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  border: solid;
+  border-color: #337ab7;
+  background-color: #202D37;
+}
+
+#p1 {
+  box-sizing: border-box;
+  background-color: #A52A2A;
+  position: relative;
+  color: white;
+  padding: 15px;
+  border: solid;
+  border-color: 000;
+ }
+#p2 {
+  box-sizing: border-box;
+  background-color: #DEB887;
+  color: white;
+  padding: 15px;
+  border: solid;
+  border-color: 000;
+ }
+#p3 {
+  box-sizing: border-box;
+  background-color: #5F9EA0;
+  color: white;
+  position: relative;
+  padding: 15px;
+  border: solid;
+  border-color: 000;
+ }
+
+ #divcontainer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  background-color: #F15656;
+  color: #175829;
+  border: 3px solid;
+  border-color: #581717;
+  text-align: center;
+  font-style: bold;
+}
+.navbar-brand {
+	font-size: 30px;
+  background-color: #5F9EA0;
+}
+
+#sushi a {
+  background-color: #9BEAEC;
+  color: #175829;
+}
+
+#chicken a {
+  background-color: #F15656;
+  color: #175829;
+}
+
+#beef a {
+  color: #175829;
+  background-color: #FFDAAA;
+}
+
+/******* Desktop ********/
+
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+}
+
+  /*  Tablet  */
+@media (min-width: 769px) and (max-width: 991) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+
+/*Mobile Phone*/
+@media (max-width: 768px) {
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+	  float: left;
+	}
+	.col-xs-12 {
+	  width: 100%;
+	}
+	.col-xs-11 {
+	  width: 91.66666667%;
+	}
+	.col-xs-10 {
+	  width: 83.33333333%;
+	}
+	.col-xs-9 {
+	  width: 75%;
+	}
+	.col-xs-8 {
+	  width: 66.66666667%;
+	}
+	.col-xs-7 {
+	  width: 58.33333333%;
+	}
+	.col-xs-6 {
+	  width: 50%;
+	}
+	.col-xs-5 {
+	  width: 41.66666667%;
+	}
+	.col-xs-4 {
+	  width: 33.33333333%;
+	}
+	.col-xs-3 {
+	  width: 25%;
+	}
+	.col-xs-2 {
+	  width: 16.66666667%;
+	}
+	.col-xs-1 {
+	  width: 8.33333333%;
+	}
+}
